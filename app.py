@@ -7,7 +7,7 @@ host_ip = '0.0.0.0'
 
 @app.route("/")
 def hello():
-    return "Hello from Python! v2"
+    return "Hi all! I'm Ad"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))
